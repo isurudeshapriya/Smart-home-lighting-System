@@ -1,6 +1,8 @@
 # Smart-home-lighting-System
-Problem Statement
-Our project is driven by a multi-faceted goal: to design and implement smart lighting system 
+#Problem Statement
+
+
+#Our project is driven by a multi-faceted goal: to design and implement smart lighting system 
 that are not only beneficial for the elderly and individuals facing health challenges but also 
 cater to the fast-paced lives of busy individuals. These devices offer the unique advantage of 
 controlling lights from anywhere, removing the need for physical presence within the house 
@@ -19,7 +21,9 @@ automatically switch on the bulbs when someone enters the room. Moreover, switch
 be on and off by voice commands.
 
 
-Solution and Design Details
+#Solution and Design Details
+
+
 Mobile Application: The focal point of our solution is an intuitively designed mobile 
 application, acting as the primary control hub for users to manage and oversee their home 
 environment remotely. The application offers a user-friendly interface, ensuring accessibility 
@@ -28,6 +32,8 @@ leading busy lives. Users can remotely operate lights with this downloadable app
 compatible with multiple devices. The application’s flexibility allows customization to suit 
 individual user preferences. Additionally, integration with the Node-Red platform expands the 
 user interface options, enabling further customization and control.
+
+
 Scheduling: The smart lighting system is seamlessly integrated with Alexa, facilitating 
 effortless pre-setting of lighting preferences. Users can customize lighting conditions for 
 different periods throughout the day or night, enabling adjustments to ambiance, brightness, 
@@ -36,12 +42,16 @@ beneficial for individuals requiring a consistent and adaptable environment, suc
 elderly or those with health challenges. Simultaneously, for busy individuals, the system 
 simplifies daily routines by automating and adjusting lighting settings through voice 
 commands to Alexa-enabled devices.
+
+
 Sensing (Lighting Control, Alexa Integration): The smart lighting system utilizes sensors 
 to detect ambient light levels and harmoniously integrates with Alexa-enabled devices. 
 These sensors enable the system to regulate lighting based on real-time data and user 
 preferences. Users have the convenience of adjusting brightness, and scheduling using 
 voice commands through Alexa, delivering a personalized and convenient lighting 
 experience.
+
+
 Power Unit: This essential component requires power to drive the ESP32 board and other 
 indicators. While it can be configured to function with battery power, owing to its direct 
 connection to AC current, a rectification circuit is employed to obtain the necessary 5V 
